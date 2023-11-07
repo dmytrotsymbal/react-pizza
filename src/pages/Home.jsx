@@ -5,7 +5,7 @@ import PizzaListItem from "../components/PizzaListItem";
 
 import { useEffect, useState } from "react";
 
-const Home = () => {
+const Home = ({ searchValue }) => {
   const [pizzasArr, setPizzasArr] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [filterCategory, setFilterCategory] = useState(0);
@@ -41,21 +41,22 @@ const Home = () => {
       <div className="content__items">
         {isLoading
           ? skeleton
-          : pizzasArr.map((obj) => (
-              <PizzaListItem
-                key={obj.id}
-                imageUrl={obj.imageUrl}
-                title={obj.title}
-                types={obj.types}
-                sizes={obj.sizes}
-                price={obj.price}
-                category={obj.category}
-                rating={obj.rating}
-              />
-            ))}
-
-        <Skeleton />
-        <Skeleton />
+          : pizzasArr
+              .filter((obj) =>
+                obj.title.toLowerCase().includes(searchValue.toLowerCase())
+              )
+              .map((obj) => (
+                <PizzaListItem
+                  key={obj.id}
+                  imageUrl={obj.imageUrl}
+                  title={obj.title}
+                  types={obj.types}
+                  sizes={obj.sizes}
+                  price={obj.price}
+                  category={obj.category}
+                  rating={obj.rating}
+                />
+              ))}
       </div>
     </div>
   );

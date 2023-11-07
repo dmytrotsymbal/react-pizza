@@ -6,8 +6,8 @@
   margin: auto;
   margin-bottom: 65px;
   border-radius: 15px;
-  // border: 1px solid $greyBorder;
-  padding: 5px;
+  border: 1px solid $greyBorder;
+  padding: 10px;
   transition: all $duration ease-in-out;
 
   &__image {
@@ -21,6 +21,7 @@
     font-weight: 900;
     letter-spacing: 1%;
     margin-bottom: 20px;
+    cursor: pointer;
   }
 
   &__selector {
@@ -70,6 +71,6 @@
   }
 
   &:hover {
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.26);
   }
 }

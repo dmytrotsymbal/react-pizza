@@ -3,7 +3,7 @@
 .SearchInput__container {
   position: relative;
 
-  .SearchInput__icon {
+  .Input__SearchIcon {
     opacity: 0.5;
     position: absolute;
     left: 12px;
@@ -13,7 +13,7 @@
   .SearchInput {
     background-color: #fff;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     border: 1px solid $greyBorder;
     padding: 12px 20px;
     padding-left: 40px;
@@ -22,5 +22,13 @@
     &:focus {
       border: 1px solid rgba(0, 0, 0, 0.3);
     }
+  }
+
+  .Input__CloseIcon {
+    opacity: 0.5;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
   }
 }
