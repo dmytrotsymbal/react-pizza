@@ -13,10 +13,10 @@ const Home = ({ searchValue }) => {
 
   useEffect(() => {
     setIsLoading(true);
+    const category = filterCategory > 0 ? `&category=${filterCategory}` : "";
+    const search = searchValue ? `&search=${searchValue}` : "";
     fetch(
-      `https://65244592ea560a22a4e9adbe.mockapi.io/items?sortBy=${sortBy}&category=${
-        filterCategory > 0 ? filterCategory : ``
-      }`
+      `https://65244592ea560a22a4e9adbe.mockapi.io/items?sortBy=${sortBy}${search}${category}`
     )
       .then((res) => {
         return res.json();
@@ -25,7 +25,7 @@ const Home = ({ searchValue }) => {
         setPizzasArr(arr);
         setIsLoading(false);
       });
-  }, [filterCategory, sortBy]);
+  }, [filterCategory, sortBy, searchValue]);
 
   const skeleton = [...new Array(12)].map((_, index) => (
     <Skeleton key={index} />
@@ -41,22 +41,18 @@ const Home = ({ searchValue }) => {
       <div className="content__items">
         {isLoading
           ? skeleton
-          : pizzasArr
-              .filter((obj) =>
-                obj.title.toLowerCase().includes(searchValue.toLowerCase())
-              )
-              .map((obj) => (
-                <PizzaListItem
-                  key={obj.id}
-                  imageUrl={obj.imageUrl}
-                  title={obj.title}
-                  types={obj.types}
-                  sizes={obj.sizes}
-                  price={obj.price}
-                  category={obj.category}
-                  rating={obj.rating}
-                />
-              ))}
+          : pizzasArr.map((obj) => (
+              <PizzaListItem
+                key={obj.id}
+                imageUrl={obj.imageUrl}
+                title={obj.title}
+                types={obj.types}
+                sizes={obj.sizes}
+                price={obj.price}
+                category={obj.category}
+                rating={obj.rating}
+              />
+            ))}
       </div>
     </div>
   );
