@@ -2,8 +2,8 @@ import Categories from "../components/Categories";
 import Sort from "../components/Sort";
 import Skeleton from "../components/PizzaListItem/Skeleton";
 import PizzaListItem from "../components/PizzaListItem";
-
 import { useEffect, useState } from "react";
+import Pagination from "../components/Pagination";
 
 const Home = ({ searchValue }) => {
   const [pizzasArr, setPizzasArr] = useState([]);
@@ -11,12 +11,14 @@ const Home = ({ searchValue }) => {
   const [filterCategory, setFilterCategory] = useState(0);
   const [sortBy, setSortBy] = useState("rating");
 
+  const [page, setPage] = useState(1);
+
   useEffect(() => {
     setIsLoading(true);
     const category = filterCategory > 0 ? `&category=${filterCategory}` : "";
     const search = searchValue ? `&search=${searchValue}` : "";
     fetch(
-      `https://65244592ea560a22a4e9adbe.mockapi.io/items?sortBy=${sortBy}${search}${category}`
+      `https://65244592ea560a22a4e9adbe.mockapi.io/items?${search}&page=${page}&limit=8&sortBy=${sortBy}${category}`
     )
       .then((res) => {
         return res.json();
@@ -25,7 +27,7 @@ const Home = ({ searchValue }) => {
         setPizzasArr(arr);
         setIsLoading(false);
       });
-  }, [filterCategory, sortBy, searchValue]);
+  }, [filterCategory, sortBy, searchValue, page]);
 
   const skeleton = [...new Array(12)].map((_, index) => (
     <Skeleton key={index} />
@@ -54,6 +56,8 @@ const Home = ({ searchValue }) => {
               />
             ))}
       </div>
+
+      <Pagination pizzasArr={pizzasArr} setPage={setPage} />
     </div>
   );
 };
