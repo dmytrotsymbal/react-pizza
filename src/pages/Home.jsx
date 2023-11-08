@@ -10,7 +10,6 @@ const Home = ({ searchValue }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [filterCategory, setFilterCategory] = useState(0);
   const [sortBy, setSortBy] = useState("rating");
-
   const [page, setPage] = useState(1);
 
   useEffect(() => {
@@ -57,7 +56,7 @@ const Home = ({ searchValue }) => {
             ))}
       </div>
 
-      <Pagination pizzasArr={pizzasArr} setPage={setPage} />
+      <Pagination setPage={setPage} />
     </div>
   );
 };

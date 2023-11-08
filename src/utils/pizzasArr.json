@@ -1,102 +1,262 @@
 [
   {
     "id": 0,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fpepperony-300dpi-min.webp&w=480&q=75",
     "title": "Pepperoni and sausage",
     "types": [0, 1],
     "sizes": [26, 30, 40],
-    "price": 803,
-    "category": 0,
-    "rating": 4
+    "price": 13,
+    "category": 1,
+    "rating": 7
   },
   {
     "id": 1,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fpiat-syrov-300dpi-min.webp&w=480&q=75",
     "title": "Four cheese",
     "types": [0],
     "sizes": [26, 40],
-    "price": 245,
-    "category": 0,
+    "price": 24,
+    "category": 2,
     "rating": 6
   },
   {
     "id": 2,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fbbq.webp&w=480&q=75",
     "title": "Barbecue chicken",
     "types": [0],
     "sizes": [26, 40],
-    "price": 295,
+    "price": 29,
     "category": 1,
-    "rating": 4
+    "rating": 6
   },
   {
     "id": 3,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
-    "title": "Sweet and sour chicken",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkantry-300dpi.webp&w=480&q=75",
+    "title": "Pizza Country",
     "types": [1],
     "sizes": [26, 30, 40],
-    "price": 275,
-    "category": 2,
-    "rating": 2
+    "price": 27,
+    "category": 3,
+    "rating": 8
   },
   {
     "id": 4,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
-    "title": "Cheeseburger pizza",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmanhatten-slice-collageweb-min.webp&w=480&q=75",
+    "title": "Manhattan pizza",
     "types": [0, 1],
     "sizes": [26, 30, 40],
-    "price": 415,
+    "price": 15,
     "category": 3,
     "rating": 8
   },
   {
     "id": 5,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
-    "title": "Crazy chicken",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fkrashcha%20tsina%2Fchiken%2Fchickenkebabwithbestprice-pieces-ukr.webp&w=480&q=75",
+    "title": "Pizza Diablo",
     "types": [0],
     "sizes": [30, 40],
-    "price": 580,
-    "category": 2,
-    "rating": 2
+    "price": 18,
+    "category": 1,
+    "rating": 10
   },
   {
     "id": 6,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fdiabolo-pizzapieces.webp&w=480&q=75",
     "title": "Pepperoni",
     "types": [0, 1],
     "sizes": [26, 30, 40],
-    "price": 675,
+    "price": 15,
     "category": 1,
     "rating": 9
   },
   {
     "id": 7,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmarharyta-300dpi-min.webp&w=480&q=75",
     "title": "Margherita",
     "types": [0, 1],
     "sizes": [26, 30, 40],
-    "price": 450,
+    "price": 32,
     "category": 4,
     "rating": 10
   },
   {
     "id": 8,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
-    "title": "4 seasons",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fprovans-300dpi-min.webp&w=480&q=75",
+    "title": "Pizza Provance",
     "types": [0, 1],
     "sizes": [26, 30, 40],
-    "price": 395,
-    "category": 5,
+    "price": 39,
+    "category": 2,
     "rating": 10
   },
   {
     "id": 9,
-    "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
-    "title": "Vegetables and mushrooms",
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ftoskana-960.webp&w=480&q=75",
+    "title": "Tuscan pizza",
     "types": [0, 1],
     "sizes": [26, 30, 40],
-    "price": 285,
-    "category": 5,
+    "price": 28,
+    "category": 2,
     "rating": 7
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fturkey-pizzapieces.webp&w=480&q=75",
+    "title": "Pizza with turkey",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 23,
+    "category": 3,
+    "rating": 6
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fbeef%20and%20ch%2Fnew%2Fbeefandchipsonions-pieces.webp&w=480&q=75",
+    "title": "Beef & Chips Pizza",
+    "types": [0, 1],
+    "sizes": [30, 40],
+    "price": 25,
+    "category": 2,
+    "rating": 7
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ftekhas-300dpi-min.webp&w=480&q=75",
+    "title": "Pizza Texas",
+    "types": [0, 1],
+    "sizes": [30, 40],
+    "price": 18,
+    "category": 2,
+    "rating": 7
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkarbonara-300dpi.webp&w=480&q=75",
+    "title": "Pizza Carbonara",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": 35,
+    "category": 3,
+    "rating": 5
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fjb-c2rtch-fin-min.webp&w=480&q=75",
+    "title": "Pizza Jamaica Bombastic",
+    "types": [1],
+    "sizes": [26, 30],
+    "price": 27,
+    "category": 4,
+    "rating": 8
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fd830e077-bcd6-4c65-8069-d3481664a7f2.webp&w=480&q=75",
+    "title": "Greek pizza with tuna",
+    "types": [0, 1],
+    "sizes": [26, 40],
+    "price": 45,
+    "category": 4,
+    "rating": 5
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fbeef%20and%20ch%2Fnew%2Fbeefandchipsonions-pieces.webp&w=480&q=75",
+    "title": "Beef & Chips Pizza",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 22,
+    "category": 1,
+    "rating": 6
+  },
+  {
+    "id": 17,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fextravaganzza-slice1-min.webp&w=480&q=75",
+    "title": "Pizza Extravaganza",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 22,
+    "category": 1,
+    "rating": 6
+  },
+  {
+    "id": 18,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fvetchina-i-griby.webp&w=480&q=75",
+    "title": "Ham and mushroom pizza",
+    "types": [1],
+    "sizes": [30, 40],
+    "price": 15,
+    "category": 3,
+    "rating": 8
+  },
+  {
+    "id": 19,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Froyal-slice-retoch-min-min.webp&w=480&q=75",
+    "title": "Royal Cheeseburger Pizza",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 22,
+    "category": 4,
+    "rating": 8
+  },
+  {
+    "id": 20,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmiunkhenskaia-delux-300dpi-min.webp&w=480&q=75",
+    "title": "Pizza Munich Deluxe",
+    "types": [0, 1],
+    "sizes": [30, 40],
+    "price": 35,
+    "category": 4,
+    "rating": 7
+  },
+  {
+    "id": 21,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fbbq-delux-300dpi-min.webp&w=480&q=75",
+    "title": "Deluxe barbeque Pizza",
+    "types": [0, 1],
+    "sizes": [30, 40],
+    "price": 18,
+    "category": 4,
+    "rating": 7
+  },
+  {
+    "id": 22,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmytstsa-300dpi-min.webp&w=480&q=75",
+    "title": "Mitz`a Pizza",
+    "types": [0],
+    "sizes": [26, 30],
+    "price": 16,
+    "category": 4,
+    "rating": 6
+  },
+  {
+    "id": 23,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fpytstsa-kurytsa-holuboisyr-kusochek.webp&w=480&q=75",
+    "title": "Chicken Dorblu",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 32,
+    "category": 4,
+    "rating": 10
+  },
+  {
+    "id": 24,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fbeef-pizzapieces.webp&w=480&q=75",
+    "title": "Pizza with veal",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 24,
+    "category": 1,
+    "rating": 6
+  },
+  {
+    "id": 25,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fhavaiska-300dpi-min.webp&w=480&q=75",
+    "title": "Pizza Hawaiian",
+    "types": [1],
+    "sizes": [30, 40],
+    "price": 32,
+    "category": 3,
+    "rating": 10
   }
 ]

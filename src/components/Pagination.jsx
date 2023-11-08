@@ -1,6 +1,6 @@
 import "../scss/components/__pagination.scss";
 import ReactPaginate from "react-paginate";
-const Pagination = ({ pizzasArr, setPage }) => {
+const Pagination = ({ setPage }) => {
   return (
     <ReactPaginate
       className="pagination"
@@ -10,7 +10,7 @@ const Pagination = ({ pizzasArr, setPage }) => {
         setPage(e.selected + 1);
       }}
       pageRangeDisplayed={8}
-      pageCount={3} //mockapi can`t return the amount of pages
+      pageCount={4} //mockapi can`t return the amount of pages
       previousLabel="<"
       renderOnZeroPageCount={null}
     />
